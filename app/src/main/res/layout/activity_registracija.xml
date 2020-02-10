@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/floral_background"
+    android:paddingTop="40dp"
+    tools:context=".Registracija">
+
+    <TextView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text="Registracija"
+        android:textColor="@color/crna"
+        android:textSize="30dp"
+        android:textStyle="normal"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+
+
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#DC143C"
+            android:foregroundTint="#DC143C"
+            android:hint="Unesite email:"
+            android:textColor="@color/crna"
+
+            android:textColorHint="@color/crna" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#DC143C"
+            android:foregroundTint="#DC143C"
+            android:hint="Unesite lozinku:"
+            android:textColor="@color/crna"
+
+            android:textColorHint="@color/crna" />
+
+
+        <Button
+            android:id="@+id/dugme"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/dugme"
+            android:text="Registruj se" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

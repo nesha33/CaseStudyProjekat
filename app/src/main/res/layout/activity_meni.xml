@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransparent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="30dp"
+            android:text="Trajanje menstruacije?"
+            android:textColor="@color/crna" />
+
+        <EditText
+            android:id="@+id/trajanjeM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:paddingHorizontal="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="30dp"
+            android:text="Trajanje menstrualnog ciklusa?"
+            android:textColor="@color/crna" />
+
+        <EditText
+            android:id="@+id/trajanjeMC"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:paddingHorizontal="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="30dp"
+            android:text="Datum početka poslednjeg menstrualnog ciklusa?"
+            android:textColor="@color/crna" />
+
+        <DatePicker
+            android:id="@+id/datumPoslednje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-50dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginRight="-50dp"
+            android:layout_marginBottom="-30dp"
+            android:datePickerMode="calendar"
+            android:scaleX="0.80"
+            android:scaleY="0.80"></DatePicker>
+
+        <Button
+            android:id="@+id/dugmeUnosPodataka"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@color/colorAccent"
+            android:text="Gotovo" />
+    </LinearLayout>
+</ScrollView>

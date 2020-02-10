@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F3DCD4</color>
+    <color name="colorPrimaryDark">#F3DCD4</color>
+    <color name="colorAccent">#F3DCD4</color>
+    <color name="colorTransparent">#8BD9E3DA</color>
+    <color name="crna">#000000</color>
+    <color name="bijela">#FFFFFF</color>
+    <color name="colorAccentDarker">#D7F43652</color>
+    <color name="colorNaslov">#C9524F53</color>
+    <color name="colorDugme">#E1F3DCD4</color>
+
+</resources>
